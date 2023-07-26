@@ -1,0 +1,67 @@
+body {
+  background-color: rgb(46, 43, 43);
+  text-align: center;
+}
+
+#modee {
+  margin-left: 30px;
+  float: left;
+  width: 120px;
+  height: 40px;
+  background-color: antiquewhite;
+  color: black;
+  border-radius: 10px;
+}
+#modeh {
+  margin-left: 30px;
+  float: left;
+  width: 120px;
+  height: 40px;
+  background-color: antiquewhite;
+  color: black;
+  border-radius: 10px;
+}
+.rgb {
+  margin-right: 150px;
+}
+p {
+  color: white;
+  font-size: 32px;
+  letter-spacing: 0.2cm;
+}
+.btn {
+  padding: 20px 50px;
+  margin-left: 20px;
+  border-radius: 10px;
+  background-color: rgb(50, 44, 44);
+  color: white;
+}
+.btn_start {
+  background-color: rgb(100, 147, 29);
+}
+.btn_result {
+  background-color: yellow;
+  color: black;
+}
+section {
+  width: 50%;
+  margin: 20px auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.cards {
+  width: 200px;
+  height: 250px;
+  background-color: blueviolet;
+  border-radius: 10px;
+}
+button {
+  cursor: pointer;
+}
+.hard {
+  display: none;
+}
