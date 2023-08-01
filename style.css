@@ -17,7 +17,7 @@ body {
   float: left;
   width: 120px;
   height: 40px;
-  background-color: antiquewhite;
+  background-color: rgb(238, 20, 20);
   color: black;
   border-radius: 10px;
 }
@@ -58,6 +58,7 @@ section {
   height: 250px;
   background-color: blueviolet;
   border-radius: 10px;
+  border:0px
 }
 button {
   cursor: pointer;
@@ -65,3 +66,4 @@ button {
 .hard {
   display: none;
 }
+

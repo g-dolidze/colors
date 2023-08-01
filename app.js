@@ -4,6 +4,7 @@ const yourResult = document.querySelector(".btn_result");
 const allCards = document.querySelectorAll(".cards");
 const modeE = document.querySelector("#modee");
 const modeH = document.querySelector("#modeh");
+const body = document.getElementsByName("body")
 let colors;
 let luckyColor;
 let isGameFinished = false;
@@ -56,7 +57,7 @@ function turnOnHardMode() {
     level.forEach((card) => {
       if (card.classList.contains("hard")) {
         card.classList.remove("hard");
-        modeE.innerHTML = "Hard";
+        modeE.innerHTML = "Easy mode";
         startHardGame();
       }
     });
@@ -72,7 +73,7 @@ function turnOnEasyMode() {
     level.forEach((card) => {
       if (!card.classList.contains("hard")) {
         card.classList.add("hard");
-        modeH.innerHTML = "Easy";
+        modeH.innerHTML = "Hard mode";
 
         startHardGame();
       }
@@ -101,8 +102,11 @@ allCards.forEach((card) => {
         yourResult.style.backgroundColor = "green";
       } else {
         yourResult.textContent = "you're wrong";
-        yourResult.style.backgroundColor = "red";
+        yourResult.style.backgroundColor = "red"; 
+        
+        
       }
+      
     }
     isGameFinished = true;
   });
